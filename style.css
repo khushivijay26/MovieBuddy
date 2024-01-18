@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.navbar {
+    padding: 0.5rem;
+    background-color: #0B0C10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.541);
+}
+
+.logo {
+    width: 6rem;
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+.logoHeading {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #E8E8E8;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 5%;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    margin-left: 7rem;
+    color: #E8E8E8;
+
+}
+
+.nav-link:hover {
+    color: #E8E8E8;
+    text-decoration: underline;
+}
+
+.active {
+    color: #E8E8E8 !important;
+    text-decoration: overline;
+}
+
+.trending {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.carousel-inner {
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    height: 500px;
+    cursor: pointer;
+}
+
+.carousel-item {
+    padding: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    position: relative;
+    width: 360px;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 0.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 430px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.carousel-control-prev {
+    background-image: linear-gradient(to right, #202833, white);
+}
+
+.carousel-control-next {
+    background-image: linear-gradient(to left, #202833, white);
+}
+
+.searchBar {
+    background-color: #46A29F;
+}
+
+.input-group {
+    width: 60%;
+    margin: auto;
+}
+
+.searchInput {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchButton {
+    background-color: #66FCF1;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #66FCF1;
+    color: #46A29F;
+}
+
+.movieResults {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popularCarousel {
+    width: auto;
+    background-color: #A1C2D1;
+}
+
+.popularCardName {
+    color: #202833;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+
+.popularMovieCard {
+    width: 17rem;
+    background-color: #E8E8E8;
+    color: #202833;
+    height: 25rem;
+}
+
+.popularNextButton {
+    background-image: linear-gradient(to left, #A1C2D1, white);
+    width: 5rem;
+}
+
+.card {
+    display: block;
+    margin: 1rem;
+    width: 20rem;
+    padding: 0.5rem;
+}
+
+.card-body {
+    color: #0B0C10;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchCard {
+    width: 18rem;
+}
+
+.img-fluid {
+    height: 20rem;
+    width: 20rem;
+}
+
+.movies {
+    background-color: #202833;
+}
+
+.movieDisplay {
+    width: 18rem;
+    height: 550px;
+}
+
+.movieCard {
+    height: 400px;
+}
+
+.footer {
+    background-color: #0B0C10;
+    bottom: 0;
+    position: relative;
+    padding: 2rem;
+}
+
+.footerText {
+    color: #E8E8E8;
+    text-align: center;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.movie-details {
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.moviePoster {
+    height: 30rem;
+    width: 24rem;
+}
+
+.movie-details h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.movie-details p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.castHeading {
+    font-size: 35px;
+}
+
+.cast-container {
+    display: flex;
+    width: 90rem;
+    height: 18rem;
+    overflow-x: auto;
+}
+
+.cast-item {
+    width: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.cast-image {
+    width: 10rem;
+    height: auto;
+    border-radius: 0.25rem;
+    margin-bottom: 5px;
+}
+
+.cast-name {
+    font-size: 14px;
+    text-align: center;
+}
+
+.trailerButton {
+    width: 28%;
+    background-color: #202833;
+    color: #E8E8E8;
+    font-size: 20px;
+}
+
+.trailerButton:hover {
+    background-color: #E8E8E8;
+    color: #202833;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 0;
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .logoHeading {
+        margin-left: -1rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        left: 0;
+        background-color: #F8F9FA;
+        width: 100%;
+        border-top: 1px solid lightgray;
+    }
+
+    .nav-link {
+        margin-left: 1.5rem;
+    }
+
+    .nav-link:hover {
+        background-color: #F8F9FA;
+        color: black;
+    }
+
+    .movieResults {
+        display: block;
+    }
+
+    .input-group {
+        width: unset;
+    }
+
+    .carousel-inner {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .carousel-item {
+        flex: 0 0 auto;
+        min-width: 50%;
+    }
+
+    .movie-card {
+        flex: 0 0 50%;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .cast-item {
+        margin-right: 0.25rem;
+        margin-left: 0.5rem;
+    }
+
+    .trailerButton {
+        width: 20rem;
+    }
+
+    #popularMoviesCarousel {
+        display: none;
+    }
+
+    .popular {
+        display: none;
+    }
+
+    .cast-container {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: unset;
+    }
+}
